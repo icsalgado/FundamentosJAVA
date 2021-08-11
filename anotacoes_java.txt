@@ -1,0 +1,27 @@
+JAVA
+
+Tipos primitivos, linguagem fortemente tipada
+
+	int idade = 30;
+
+ou
+
+	int idade = (int)30; // nesse caso usando typecast
+
+ou
+
+	Integer idade = new Integer(30);//nesse caso o primeiro integer é Wrapper Class e recebe um objeto
+
+
+
+
+Familia		Tipo Primitivo	Wrapper Class	Tamanho		Exemplo
+Logico			boolean		boolean			1bit		true
+literais		char		Character		ibyte		'A'
+							String			1byte cada	"java"
+inteiros		byte		Byte			1byte		ate 127
+				short		Short			2bytes		37777
+				int			Integer			4bytes		2147483
+				long		Long			8bytes		2^63
+reais			float		Float			4bytes		3.4e^+38
+				double		Double			8bytes		1.8e+308
